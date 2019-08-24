@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-
+@import url("font-awesome.min.css");
 /*
 	Fractal by HTML5 UP
 	html5up.net | @ajlkn
@@ -2313,7 +2313,6 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 0 0 3em 0;
 			width: 100%;
 		}
 
@@ -2403,7 +2402,9 @@ input, select, textarea {
 			.image.phone .inner:after {
 				border-color: #e6e6e6;
 			}
-
+	.height {
+		height: 280px;
+	}
 /* List */
 
 	ol {
